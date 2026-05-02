@@ -58,8 +58,6 @@ public class TripServiceImpl implements ITripServices {
 			
 			lista.add(trip1);
 			lista.add(trip2);
-			lista.add(trip3);
-			lista.add(trip4);
 		} catch (ParseException e) {
 			System.out.println(e.getMessage());
 		}

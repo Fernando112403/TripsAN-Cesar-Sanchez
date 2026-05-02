@@ -81,7 +81,7 @@ public class HomeController {
 	@GetMapping ("/tabla")
 	public String mostrarTabla(Model model) {
 		List<Trip> lista = tripServices.buscarTodo();	
-		model.addAttribute("trips", lista);
+		model.addAttribute("trips1", lista);
 		return "tabla";
 	}
 
